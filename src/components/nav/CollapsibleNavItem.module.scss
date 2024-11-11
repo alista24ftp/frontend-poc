@@ -1,0 +1,7 @@
+@use "../../styles/colours";
+
+.navToggleActiveButton {
+  background-color: colours.$white;
+  font-weight: bold;
+  color: colours.$bg-nav;
+}

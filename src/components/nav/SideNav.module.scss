@@ -1,0 +1,29 @@
+@use "../../styles/colours";
+
+.sideNav {
+  background-color: colours.$bg-nav;
+  color: colours.$white;
+  max-width: 300px;
+  font-size: 1rem;
+  font-weight: normal;
+}
+
+.sideNavHeader {
+  font-size: 1.25rem;
+}
+
+.sideNavActiveItem {
+  background-color: colours.$white;
+  font-weight: bold;
+  color: colours.$bg-nav;
+}
+
+.sideNavInnerItem {
+  font-size: 0.875rem;
+}
+
+.sideNavActiveInnerItem {
+  background-color: colours.$white;
+  font-weight: bold;
+  color: colours.$bg-nav;
+}

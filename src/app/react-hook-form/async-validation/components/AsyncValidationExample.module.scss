@@ -1,0 +1,30 @@
+@use "../../../../styles/colours";
+
+.form {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  border-radius: 0.25rem;
+  border: 1px solid colours.$input-border;
+}
+
+.input {
+  margin: 1.5rem 0 0 0;
+}
+
+.firstInput {
+  margin: 0;
+}
+
+.submitButton {
+  background-color: colours.$primary-button;
+  color: colours.$white;
+  font-weight: bold;
+  border-radius: 0.25rem;
+  padding: 0.5rem 1rem;
+  margin: 1.5rem 0 0 0;
+
+  &:hover {
+    background-color: colours.$primary-button-hover;
+  }
+}
